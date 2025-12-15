@@ -1,0 +1,12 @@
+2025-12-05 17:42:19,056 - currency_file - INFO - INFO: Started 'get_currencies'. args: (['USD', 'EUR'],), kwargs: {}
+2025-12-05 17:42:19,834 - currency_file - INFO - Finished 'get_currencies'. Result: {'USD': 76.0937, 'EUR': 88.7028}
+2025-12-05 17:42:19,834 - currency_file - INFO - INFO: Started 'get_currencies'. args: (['USD', 'ZZZ'],), kwargs: {}
+2025-12-05 17:42:20,798 - currency_file - ERROR - Failed 'get_currencies'. Error: KeyError - "Валюта 'ZZZ' отсутствует в данных"
+2025-12-05 17:42:20,800 - currency_file - INFO - INFO: Started 'get_currencies'. args: (['USD'],), kwargs: {'url': 'https://invalid-url-address.com/api'}
+2025-12-05 17:42:31,997 - currency_file - ERROR - Failed 'get_currencies'. Error: ConnectionError - API недоступен: https://invalid-url-address.com/api
+2025-12-06 09:29:58,911 - currency_file - INFO - INFO: Started 'get_currencies'. args: (['USD', 'EUR'],), kwargs: {}
+2025-12-06 09:29:59,459 - currency_file - INFO - Finished 'get_currencies'. Result: {'USD': 76.0937, 'EUR': 88.7028}
+2025-12-06 09:29:59,459 - currency_file - INFO - INFO: Started 'get_currencies'. args: (['USD', 'ZZZ'],), kwargs: {}
+2025-12-06 09:29:59,815 - currency_file - ERROR - Failed 'get_currencies'. Error: KeyError - "Валюта 'ZZZ' отсутствует в данных"
+2025-12-06 09:29:59,817 - currency_file - INFO - INFO: Started 'get_currencies'. args: (['USD'],), kwargs: {'url': 'https://invalid-url-address.com/api'}
+2025-12-06 09:29:59,883 - currency_file - ERROR - Failed 'get_currencies'. Error: ConnectionError - API недоступен: https://invalid-url-address.com/api
